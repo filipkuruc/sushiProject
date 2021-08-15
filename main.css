@@ -1,0 +1,509 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #0b2324;
+  margin: 0 auto;
+  padding: 0 auto;
+}
+
+body > div
+{
+	width: 1200px;
+	margin: 0 auto;
+}
+
+.stranicaJedan {
+  height: 700px;
+  background-image: url("pictures/naslovna.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.stranicaDva {
+  height: 250px;
+  background: url("pictures/bgcrop.jpg") right no-repeat;
+  clip-path: polygon(0% 20%, 60% 20%, 60% 0%, 100% 50%, 60% 100%, 60% 80%, 0% 80%);
+}
+
+.stranicaTri {
+  height: 300px;
+}
+
+.stranicaCetiri {
+  height: 1500px;
+}
+
+.stranicaPet {
+  height: 300px;
+}
+
+.stranicaSest {
+  height: 300px;
+  background-image: url("pictures/bg1.webp");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.stranicaSedam {
+  height: 450px;
+}
+
+.stranicaOsam {
+  background-image: url("pictures/bg2.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  height: 1000px;
+}
+
+.stranicaOsam2 {
+  background-image: url("pictures/bg3.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  height: 1000px;
+}
+
+.stranicaDevet {
+  height: 340px;
+}
+
+.stranicaDeset {
+  height: 500px;
+}
+
+.stranicaJedanaest {
+  height: 300px;
+}
+
+.footer {
+  height: 200px;
+}
+
+#navigacija {
+  text-align: right;
+  margin: 0 20px auto auto;
+  padding-top: 200px;
+}
+
+#navigacija a {
+  text-decoration: none;
+  color: white;
+  border-radius: 50px;
+  background: yellowgreen;
+  box-shadow: 0px 0px 15px 2px yellowgreen;
+  font-size: 30px;
+  margin-left: 10px;
+  margin-right: 10px;
+  padding: 10px;
+  transition: 500ms;
+}
+
+#navigacija a:hover {
+  background: white;
+  color: yellowgreen;
+  transition: 500ms;
+  box-shadow: 0px 0px 15px 2px white;
+}
+
+#naslovniDeo {
+  width: 40%;
+  padding-top: 95px;
+  text-align: center;
+  font-family: Papyrus;
+  margin: 0 0 auto auto;
+}
+
+#learnMore {
+  background-color: #3e7f21aa;
+  font-size: 30px;
+  margin-top: 20px;
+  padding: 15px 10px;
+  transition: 1000ms;
+}
+
+#imeRestorana {
+  color: yellowgreen;
+  font-size: 40px;
+  font-weight: bold;
+  padding-top: 50px;
+}
+
+#learnMore a {
+  text-decoration: none;
+  color: white;
+}
+
+#learnMore:hover {
+  background-color: yellowgreen;
+  padding-right: 20px;
+  padding-left: 20px;
+  transition: 1000ms;
+}
+
+#pozadinaDva {
+  display: grid;
+  grid-template-rows: 80px 70px;
+  padding-top: 50px;
+  padding-left: 20px;
+  width: 100%;
+}
+
+#tekstDva {
+  color: black;
+  font-size: 18px;
+  width: 40%;
+}
+
+#pozadinaTri {
+  height: 100%;
+  background-color: #556b2f;
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+}
+
+#stavka {
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 20px;
+}
+
+#tekstTri {
+  color: white;
+  font-size: 18px;
+}
+
+#kruzic {
+  display: inline-block;
+  box-shadow: 2px 2px 2px 3px yellowgreen;
+  background-color: yellowgreen;
+  width: 20px;
+  height: 28px;
+  margin-left: 1px;
+  margin-top: 10px;
+  margin-right: 10px;
+  margin-bottom: -20px;
+  border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+  transform-style: preserve-3d;
+  transform: rotateZ(-25deg);
+}
+
+#pozadinaCetiri {
+  background-color: #556b2f;
+  width: 80%;
+  margin: 0 auto;
+}
+
+#naslovCetiri {
+  text-align: center;
+  font-size: 40px;
+  display: flex;
+  height: 200px;
+  justify-content: center;
+  align-items: center;
+  font-family: Papyrus;
+  color: yellowgreen;
+}
+
+#rasporedMenija {
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  grid-template-rows: 250px 250px 250px 250px 250px;
+}
+
+.tekst {
+  text-align: center;
+  margin: auto 10px;
+  font-size: 18px;
+}
+
+.slika {
+  /*background-color: yellow;*/
+}
+.slika img
+{
+	height: 100%;
+	width: 100%;
+}
+
+.cena {
+  font-family: Papyrus;
+  color: white;
+}
+
+#pozadinaPet {
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  background-color: #556b2f;
+}
+
+#naslovPet {
+  font-size: 30px;
+  text-align: center;
+  padding-top: 30px;
+  font-size: 35px;
+  font-family: Papyrus;
+  color: yellowgreen;
+}
+
+#pozadinaPet p
+{
+  text-align: center;
+  margin: 30px 350px;
+  color: white;
+  font-size: 20px;
+}
+
+#kruziciPet {
+  text-align: center;
+  height: 50px;
+}
+
+#slikaSest {
+  width: 100%;
+  height: 100%;
+  background: gray;
+  margin: 0 auto;
+}
+
+#pozadinaSedam {
+  background-color: #556b2f;
+  width: 100%;
+  margin: 0 auto;
+  height: 100%;
+}
+
+#naslovSedam {
+  display: flex;
+  font-size: 30px;
+  height: 120px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-family: Papyrus;
+  color: yellowgreen;
+}
+
+#tablicaSedam {
+  margin: 0 auto;
+  width: 70%;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 100px 100px 100px;
+}
+
+#podtablicaSedam {
+  display: grid;
+  grid-template-columns: 30% 70%;
+  border: 1p solid black;
+}
+
+.tekstSedam {
+  margin-left: 15px;
+}
+
+#podnaslovSedam {
+  color: white;
+  font-family: Papyrus;
+}
+
+#podtekstSedam {
+  color: white;
+}
+
+#pozadinaDevet {
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  background-color: #00000056;
+}
+
+#naslovDevet {
+  display: flex;
+  font-size: 30px;
+  height: 60px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-family: Papyrus;
+  color: white;
+}
+
+#formular {
+  width: 70%;
+  margin: 10px auto;
+  display: grid;
+  grid-template-rows: 80px 80px 80px;
+  grid-template-columns: 33% 33% 33%;
+  
+  align-items: center;
+  justify-items: center;
+}
+
+#formular label {
+  color: white;
+  font-weight: bold;
+}
+
+#datum,
+#brojRez,
+#vreme,
+#name,
+#mejl,
+#telBroj,
+#submit {
+  width: 170px;
+  background: transparent;
+  border-radius: 5px;
+  border: 1px solid white;
+  color: white;
+  margin-top: 2px;
+}
+
+#brojRez option {
+  background: #0b2324;
+  color: white;
+}
+
+#submit {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+#pozadinaDeset {
+  background-color: #556b2f;
+  height: 100%;
+}
+
+#pozadinaDeset a {
+  color: black;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-decoration: none;
+  border-bottom: 4px solid yellowgreen;
+  border-radius: 5px;
+}
+
+#naslovDeset {
+  height: 80px;
+  font-size: 30px;
+  color: white;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: yellowgreen;
+  font-family: Papyrus;
+  padding-top: 50px;
+}
+
+#meniDeset {
+  display: grid;
+  width: 80%;
+  grid-template-columns: 30% 30% 30%;
+  margin: 20px auto;
+  justify-content: space-between;
+}
+
+#meniDeset > div {
+  background: white;
+}
+
+.slika3 {
+  height: 200px;
+}
+
+.slika3 img
+{
+	height: 100%;
+	width: 100%;
+}
+
+#meniDeset p {
+  margin-left: 10px;
+  font-size: 13px;
+}
+
+#pozadinaJedanaest {
+  background: #00000054;
+  height: 100%;
+  width: 100%;
+  display: grid;
+  grid-template-rows: 20% 30% 10% 30%;
+}
+
+#kruzicKos {
+  display: inline-block;
+  background-color: yellowgreen;
+  width: 8px;
+  height: 23px;
+  margin-left: 1px;
+  margin-right: 5px;
+  border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+  transform-style: preserve-3d;
+  transform: rotateZ(-40deg);
+}
+
+#naslovniKruzici {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#tekstJedanaest {
+  color: yellowgreen;
+  width: 70%;
+  margin: 0 auto;
+  text-align: center;
+  display: flex;
+  align-items: center;
+}
+
+#imenovanjeJedanaest {
+  font-family: Papyrus;
+  color: yellowgreen;
+  font-size: 19px;
+  text-align: center;
+  font-weight: bold;
+}
+
+#ikonice {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#pozadinaFooter {
+  background: #556b2f;
+  height: 100%;
+}
+
+#centriranje {
+  display: grid;
+  width: 80%;
+  margin: 0 auto;
+  grid-template-columns: 40% 15% 15% 15%;
+  justify-content: space-between;
+}
+
+#levoF h3,
+#podfooter h3 {
+  font-size: 20px;
+  color: white;
+  font-weight: bold;
+}
+
+#levoF p {
+  color: white;
+  margin: 40px 150px 0 0;
+}
+
+#podfooter nav a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+/*https://www.cssfontstack.com/Covered-By-Your-Grace*/
